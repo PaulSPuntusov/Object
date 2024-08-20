@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Fraction {
+public class Fraction implements Cloneable {
     int num, denum;
 
     public Fraction(int num, int denum) {
@@ -22,5 +22,14 @@ public class Fraction {
         if (fr == null || getClass() != fr.getClass()) return false;
         Fraction fraction = (Fraction) fr;
         return Objects.equals(num,fraction.num) && Objects.equals(denum, fraction.denum);
+    }
+
+    @Override
+    public Fraction clone()  {
+        int x,y;
+        x = this.num;
+        y = this.denum;
+        Fraction fraction = new Fraction(x,y);
+        return fraction;
     }
 }
