@@ -2,11 +2,11 @@ import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
-        Fraction fr1 = new Fraction(1,4);
-        Fraction fr2 = new Fraction(1,4);
-        System.out.println(fr1.equals(fr2));
-        Fraction fr3 = fr2.clone();
-        System.out.println(fr3);
+        Dot d1 = new Dot(1,2);
+        Dot d2 = new Dot(1,2);
+        System.out.println(d1.equals(d2));
+        Dot d3 = d2.clone();
+        System.out.println(d3);
     }
 
 

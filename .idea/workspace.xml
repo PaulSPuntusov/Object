@@ -18,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -34,7 +39,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Task__2-Dot-compairing",
     "kotlin-language-version-configured": "true"
   },
   "keyToStringList": {
@@ -77,11 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724181401212</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Object Task1 доделал">
+      <option name="closed" value="true" />
+      <created>1724182786083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724182786083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Object Task1 первую часть выполнил" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Task1 первую часть выполнил" />
+    <MESSAGE value="Object Task1 доделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Task1 доделал" />
   </component>
 </project>
