@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Objects;
 
 public class PolyLine {
     Dot[] dots;
@@ -22,8 +23,8 @@ public class PolyLine {
         if (this == o) return true;
         if (!(o instanceof PolyLine)) return false;
         PolyLine polyLine = (PolyLine) o;
-        for(int i=0;i< dots.length;i++){
-            if((dots[i].x!=polyLine.dots[i].x)||(dots[i].y!=polyLine.dots[i].y)){
+        for (int i = 0; i < dots.length; i++) {
+            if (!(Objects.equals(dots[i], polyLine.dots[i]))) {
                 return false;
             }
         }
