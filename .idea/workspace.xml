@@ -114,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724272391140</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Object Task4 сделал">
+      <option name="closed" value="true" />
+      <created>1724356206466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724356206466</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Object Task4 сделал">
+      <option name="closed" value="true" />
+      <created>1724356211433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724356211433</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +138,7 @@
     <MESSAGE value="Object Task1 доделал" />
     <MESSAGE value="Object Task2 &quot;написал&quot; equals для примитивов" />
     <MESSAGE value="Object Task3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Task3" />
+    <MESSAGE value="Object Task4 сделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Task4 сделал" />
   </component>
 </project>
